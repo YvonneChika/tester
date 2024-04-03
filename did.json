@@ -3,12 +3,12 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:skounis.github.io",
+  "id": "did:web:yvonne.github.io",
   "verificationMethod": [
     {
-      "id": "did:web:skounis.github.io#owner",
+      "id": "did:web:yvonne.github.io#owner",
       "type": "JsonWebKey2020",
-      "controller": "did:web:skounis.github.io",
+      "controller": "did:web:yvonne.github.io",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
@@ -18,9 +18,9 @@
     }
   ],
   "authentication": [
-    "did:web:YvonneChika.github.io#owner"
+    "did:web:yvonne.github.io#owner"
   ],
   "assertionMethod": [
-    "did:web:YvonneChika.github.io#owner"
+    "did:web:yvonne.github.io#owner"
   ]
 }
