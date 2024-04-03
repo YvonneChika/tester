@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:yvonne.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:yvonne.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:yvonne.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x":"ZVDDI2RLv5XHpKL+I467fuRUpAm0974FqabGSdQgToc=",
+        "y":"hgpH9+L9P54W2aettEqvsdNZL3P20JTLXTzFcZgqQzw="
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:yvonne.github.io#owner"
+  ],
+  "assertionMethod": [
+    "did:web:yvonne.github.io#owner"
+  ]
+}
